@@ -1,0 +1,40 @@
+﻿Task 1(a):
+
+1. Normal I/O testing. readline() is to read one line from input, realines() is to read all the lines from input file . 
+2. In the evenOdd function just checking even and odd normally.
+3. Then writing the output in the output file by implementing newlines until the last line.
+
+
+
+
+Task 1(b):
+
+1. I/O tasks are similar to task 1(a). New thing is splitting the input line to get the values and operators.
+2. The op function is just calculating the splitted values based on the operator.
+
+
+
+
+Task 2:
+
+1. I/O tasks are similar to task 1(b)-1.
+2. Normally the bubbleSort function has a time complexity of θ(n^2) as there are 2 for loops. But if we use a checking parameter in front of the 2nd loop assigning it a with initial value (bool=’False’) and change the value of that parameter inside the 2nd loop(bool=”True”) if the code enters the 2nd loop , then after the first iteration if the parameters value doesn't change , we can ensure that the array is already sorted which is the best case and can break out of the 1st for loop which makes the time complexity θ(n).
+
+
+
+
+Task 3:
+
+1. I/O tasks are similar to task 1(b)-1 and are stored in arrays.
+2. In the sort function , only one swap is being done in the both mark and id arrays according to the find of maximum mark and if several ids have the same marks equals the maximum mark then the id is sorted in descending order . As we are sorting the array in descending order, we find maximum marks traversing through the selected part of the array and placing them in front of the same array.
+3. This is almost like a selection sort and the time complexity is O(n^2).
+
+
+
+
+
+Task 4:
+
+1. I/O tasks are similar to task 1(b)-1 and are stored in arrays.
+2. As in the previous problem, here the names and times are being sorted as the mark and id of the previous problem but this time the names are sorted in descending lexicographical order and the others array is being sorted based on the names-times sorting .
+3. This is also a kind of selection sort where the time complexity is O(n^2).
