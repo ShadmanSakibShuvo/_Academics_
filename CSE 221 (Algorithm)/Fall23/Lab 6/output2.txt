@@ -1,3 +1,0 @@
-N.B: For sample input 3 ; the given sample output is wrong as at node 2 , total time = 14 > at node 6 , total time = 12
-Time 9
-Node 6
